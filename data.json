@@ -1,0 +1,60 @@
+{
+  "atleti" : [ {
+    "nome" : "Chiara",
+    "cognome" : "Bianchi",
+    "compleanno" : [ 1985, 3, 15 ],
+    "indirizzo" : "Via Milano, 20",
+    "telefono" : 987654321,
+    "mail" : "chiara.bianchi@example.com",
+    "attivita" : [ "Basket", "Calcio", "Pallavolo" ]
+  }, {
+    "nome" : "Mario",
+    "cognome" : "Rossi",
+    "compleanno" : [ 1990, 5, 10 ],
+    "indirizzo" : "Via Roma, 1",
+    "telefono" : 123456789,
+    "mail" : "mario.rossi@example.com",
+    "attivita" : [ "Basket" ]
+  }, {
+    "nome" : "Paola",
+    "cognome" : "Bassani",
+    "compleanno" : [ 1980, 10, 16 ],
+    "indirizzo" : "Via Roma 134",
+    "telefono" : 329847,
+    "mail" : "paola.bassani@mail.com",
+    "attivita" : [ "Calcio" ]
+  }, {
+    "nome" : "Enrico",
+    "cognome" : "Bassani ",
+    "compleanno" : [ 2001, 9, 21 ],
+    "indirizzo" : "Via San Cassiano 27",
+    "telefono" : 932748,
+    "mail" : "prova@mail.com",
+    "attivita" : [ "Basket", "Pallavolo" ]
+  } ],
+  "attivita" : [ {
+    "nomeAttivita" : "Basket",
+    "descrizioneAttivita" : "Costo Rata Annuale €200",
+    "orariAttivita" : {
+      "giorni" : [ "Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica" ],
+      "orarioInizio" : [ "12:00", "19:00", "", "10:00", "", "", "" ],
+      "orarioFine" : [ "23:00", "21:00", "", "14:00", "", "", "" ]
+    }
+  }, {
+    "nomeAttivita" : "Calcio",
+    "descrizioneAttivita" : "Si ricorda di portare la divisa",
+    "orariAttivita" : {
+      "giorni" : [ "Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica" ],
+      "orarioInizio" : [ "20:00", "", "", "", "15:00", "", "" ],
+      "orarioFine" : [ "22:00", "", "", "", "17:00", "", "" ]
+    }
+  }, {
+    "nomeAttivita" : "Pallavolo",
+    "descrizioneAttivita" : "Scadenza adesioni torneo:  19 Ottobre",
+    "orariAttivita" : {
+      "giorni" : [ "Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica" ],
+      "orarioInizio" : [ "", "", "19:00", "", "", "09:30", "" ],
+      "orarioFine" : [ "", "", "21:00", "", "", "12:00", "" ]
+    }
+  } ]
+}

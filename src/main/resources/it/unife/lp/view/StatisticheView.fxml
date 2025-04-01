@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.StatisticheController"
+      prefWidth="700" prefHeight="500" spacing="20" alignment="TOP_CENTER">
+    
+    <!-- Tabella delle Statistiche -->
+    <TableView fx:id="statisticheTable" prefWidth="680" prefHeight="250">
+        <columns>
+            <TableColumn fx:id="attivitaColumn" text="Attività" prefWidth="340"/>
+            <TableColumn fx:id="countColumn" text="Iscritti" prefWidth="340"/>
+        </columns>
+    </TableView>
+    
+    <!-- Grafico a Torta -->
+    <PieChart fx:id="pieChart" prefHeight="200" prefWidth="400">
+        <VBox.margin>
+            <Insets top="10"/>
+        </VBox.margin>
+    </PieChart>
+</VBox>
