@@ -15,23 +15,7 @@
     "telefono" : 123456789,
     "mail" : "mario.rossi@example.com",
     "attivita" : [ "Basket" ]
-  }, {
-    "nome" : "Paola",
-    "cognome" : "Bassani",
-    "compleanno" : [ 1980, 10, 16 ],
-    "indirizzo" : "Via Roma 134",
-    "telefono" : 329847,
-    "mail" : "paola.bassani@mail.com",
-    "attivita" : [ "Calcio" ]
-  }, {
-    "nome" : "Enrico",
-    "cognome" : "Bassani ",
-    "compleanno" : [ 2001, 9, 21 ],
-    "indirizzo" : "Via San Cassiano 27",
-    "telefono" : 932748,
-    "mail" : "prova@mail.com",
-    "attivita" : [ "Basket", "Pallavolo" ]
-  } ],
+  }],
   "attivita" : [ {
     "nomeAttivita" : "Basket",
     "descrizioneAttivita" : "Costo Rata Annuale €200",
